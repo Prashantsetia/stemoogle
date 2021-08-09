@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="discription" content="This is my intro webpage">
+    <meta name="keywords" content="intro, introduction, my into, first web page">
+    <meta name="author" content="my name">
+    <title>introduction</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- This is the heading of my introduction webpage -->
+    <header id="head">
+        <h1>&lt; My&nbsp;&nbsp;&nbsp;Introduction &gt;</h1>
+
+
+        <a href="">About me</a>
+        <a href="">Education</a>
+        <a href="">Skills</a>
+        <a href="">Achievements</a>
+        <a href="">Favorite Movies</a>
+        <a href="#contact">Contact Me</a>
+
+    </header>
+
+    <section id="about">
+
+        <hr>
+        <h2 class="smallhead">About Me</h2>
+        <img src="https://i.pinimg.com/736x/89/90/48/899048ab0cc455154006fdb9676964b3.jpg" alt="My Image" height="200" width="200">
+        <p id="para">
+            My name is <b>Prashant</b>. I am 22 years old. I belong from UP but. I live in <u>Bhopal</u>. <br> I have done six months experience from Either tractor as a post of the quality checker.<br> I Currently pursuing B-Tech from are. G.P.V and
+            Mechanical Engineering in Bhopal. <br> I have done my 12th Class from M.P Board. <br> I did my 10th class from the same M.P Board. <br> I done D.C.A from <i>Makhanlal Chaturvedi University</i>.
+        </p>
+        <hr>
+    </section>
+
+    <section id="edu">
+        <h2 class="smallhead">Education</h2>
+
+        <dl>
+            <dt><b>Class 12th , CBSE</b></dt>
+            <dd>- ABC school , Hisar</dd>
+            <dt><b>Class 10th , CBSE </b></dt>
+            <dd>- XYZ school , Hisar</dd>
+        </dl>
+        <table border="1" cellpadding="10" cellspacing="0" bgcolor="bisque" bordercolor="red">
+            <tr>
+                <th>Class</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year of Passing</th>
+            </tr>
+
+            <tr>
+                <td>10th</td>
+                <td>CBSE</td>
+                <td>90%</td>
+                <td>2012</td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td>ICSE</td>
+                <td>94%</td>
+                <td>2014</td>
+            </tr>
+        </table>
+
+        <hr>
+    </section>
+
+    <section>
+        <h2 class="smallhead">Skills</h2>
+        <ul type="circle">
+            <li>Academic Writing</li>
+            <li>Research</li>
+            <li>Creative Writing</li>
+            <li> Editing</li>
+        </ul>
+        <hr>
+    </section>
+
+    <section>
+        <h2 class="smallhead">Achievements</h2>
+        <ol type="i">
+            <li>Dean's List 2015–2017</li>
+            <li>President of the undergraduate student board from 2016 to 2017.</li>
+            <li>Started and ran a discussion club on Russian Postmodernist Literature.</li>
+            <li>Chief Editor of the University Blog from 2016 to 2018.</li>
+        </ol>
+        <hr>
+    </section>
+    <section id="cinema">
+        <h2 class="smallhead">My Fovorite Movies</h2>
+        <a href="https://www.primevideo.com/">
+
+            <img src="https://media.giphy.com/media/AuZXGzk5qKRpG54Ewl/giphy.gif" alt="" width="200">
+
+        </a>
+        <ul>
+            <li><a href="abc.com">movie 1</a></li>
+            <li><a href="abc.com">movie 2</a></li>
+            <li><a href="abc.com">movie 3</a></li>
+            <li><a href="abc.com">movie 4</a></li>
+            <li><a href="abc.com">movie 5</a></li>
+        </ul>
+
+        <a href="resume.pdf" class="resume"><b>Download My Resume</b></a>
+
+        <hr>
+    </section>
+
+    <section id="contact">
+        <h2 class="smallhead">Contact Me</h2>
+        <a href="tel:123-456-7890">123-456-7890</a> <br> <br>
+        <a href="mailto:email@example.com"> email@example.com </a>
+        <hr>
+    </section>
+
+    <section>
+        <h2 class="smallhead">My Mini YouTube</h2>
+        <iframe src="" height="300px" width="700px" name="mainframe" frameborder="1"></iframe>
+        <ul>
+            <li><a href="https://www.youtube.com/embed/B8G3zCnZvMU" target="mainframe">Song 1</a></li>
+            <li><a href="">Song 2</a></li>
+            <li><a href="">Song 3</a></li>
+            <li><a href="">Song 4</a></li>
+            <li><a href="">Song 5</a></li>
+        </ul>
+        <hr>
+    </section>
+
+    <section>
+        <h2 class="smallhead">Join Me</h2>
+        <form>
+            <fieldset>
+                <legend>Join Me Form</legend>
+                <label for="fname">First Name: </label>
+                <input type="text" id="fname" placeholder="Prashant" required>
+                <label for="lname">Last Name: </label>
+                <input type="text" id="lname" placeholder="Setia" required>
+                <br>
+                <br>
+                <label for="mail">Enter Your Email : </label>
+                <input type="email" name="mail" id="mail" required>
+
+                <label for="dob">Enter your D.O.B : </label>
+                <input type="date" name="dob" id="dob">
+                <br>
+                <br>
+                <label>Select Your Gender : </label>
+
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender">
+
+                <br>
+                <br>
+
+                <label for="pic">Upload Your Picture : </label>
+                <input type="file" name="pic" id="pic"> <br><br>
+                <label for="browser">Choose your State from the list:</label>
+                <input list="states" id="state">
+
+                <datalist id="states">
+                  <option value="Haryana">
+                  <option value="Delhi">
+                  <option value="Punjab">
+                  <option value="Chandigarh">
+                </datalist>
+                <br> <br>
+                <input type="checkbox">
+                <label>HTML</label> <br>
+                <input type="checkbox">
+                <label>CSS</label> <br>
+                <input type="checkbox">
+                <label>JavaScript</label> <br>
+                <input type="checkbox">
+                <label>Python</label> <br>
+                <br>
+                <input type="submit" value="Submit">
+        </form>
+        </fieldset>
+    </section>
+
+    <a href="#head" id="up">
+        ^
+    </a>
+</body>
+
+</html>

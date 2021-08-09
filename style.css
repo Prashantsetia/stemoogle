@@ -1,0 +1,122 @@
+/* This is a style sheet for Introduction web page */
+
+* {
+    font-family: cursive;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: aliceblue;
+}
+h2 {
+    color: red;
+}
+
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+header a {
+    color: blue;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid blue;
+    border-radius: 7px;
+    margin: 0px 20px;
+    padding: 5px;
+}
+
+.smallhead {
+    text-align: center;
+    text-decoration: underline;
+}
+
+ol {
+    text-transform: capitalize;
+}
+
+#about {
+    text-align: center;
+    background-color: antiquewhite;
+}
+#para {
+    font-size: 20px;
+    border: 10px double #ff8585;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+
+#about img{
+    border: 2px solid black;
+    border-radius: 100px;
+    transition: transform 5s ease-in-out;
+}
+
+
+#about img:hover{
+    transform: rotateY(360deg);
+    perspective: 10px;
+}
+
+ol, ul{
+    font-weight: bold;
+}
+
+#contact h2+a{
+    color: red;
+}
+
+.resume:link{
+    color:blueviolet;
+}
+
+.resume:visited{
+    color: black;
+}
+
+.resume:active{
+    color: red;
+}
+
+header a:hover{
+    font-size: 18px;
+    color: chartreuse;
+    background-color: black;
+}
+
+#fname:focus,#lname:focus{
+    width: 20%;
+}
+
+ul li:first-child, ul li:last-child{
+    color: coral;
+}
+
+#edu{
+    background-image: url('https://images.unsplash.com/photo-1562774053-701939374585?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1064&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cinema{
+    background-image: url('https://images.unsplash.com/photo-1536440136628-849c177e76a1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=625&q=80');
+    /* background-repeat:repeat-x; */
+}
+
+#up{
+    position: fixed;
+    background-color: black;
+    color: red;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 12px;
+    right: 20px;
+    bottom: 20px;
+}
